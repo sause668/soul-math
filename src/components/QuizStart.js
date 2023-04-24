@@ -19,13 +19,9 @@ export default function QuizStart({quiz, pageState, setPageState, unitTitle}) {
             <Typography align='center' variant='h1' m={0} >{unitTitle}</Typography>
             <Typography align='center' variant='h2' m={4} >{quiz.title}</Typography>
             
-            <Button 
-                variant='contained'
-                onClick={()=>setPageState(0)}
-                sx={{m: 3}}
-            >
+            <Box>
                 <Typography align='center' variant='h3' m={2} px={0} ><b>Instructions: </b>{quiz.dis}</Typography>
-            </Button>
+            </Box>
             <Button 
                 variant='contained'
                 onClick={()=>setPageState(0)}
