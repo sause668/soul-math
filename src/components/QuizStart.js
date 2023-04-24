@@ -16,12 +16,9 @@ export default function QuizStart({quiz, pageState, setPageState, unitTitle}) {
                 alignItems: 'center',
                 width: '100%',
         }}>
-            <Typography align='center' variant='h1' m={0} >{unitTitle}</Typography>
-            <Typography align='center' variant='h2' m={4} >{quiz.title}</Typography>
-            
-            
-            <Typography align='center' variant='h3' m={2} px={0} ><b>Instructions: </b>{quiz.dis}</Typography>
-            
+            <Typography color='black' align='center' variant='h1' m={0} >{unitTitle}</Typography>
+            <Typography color='black' align='center' variant='h2' m={4} >{quiz.title}</Typography>
+            <Typography color='black' align='center' variant='h3' m={2} px={0} ><b>Instructions: </b>{quiz.dis}</Typography>
             <Button 
                 variant='contained'
                 onClick={()=>setPageState(0)}

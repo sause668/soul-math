@@ -12,11 +12,11 @@ export default function CalcQuizPar({val, neg}) {
             display: 'flex',
             alignItems: 'center',
         }}>
-        <Typography variant="calc" fontSize={{xs: '30px', sm: '35px', md: '40px'}} >{(neg) ? '-' : ''}(</Typography>
+        <Typography color='black' variant="calc" fontSize={{xs: '30px', sm: '35px', md: '40px'}} >{(neg) ? '-' : ''}(</Typography>
         {val.map((val,index)=>(
             <CalcQuizExpress key={`calcPar${index}`} val={val} index={index}/>
         ))}
-        <Typography variant="calc" fontSize={{xs: '30px', sm: '35px', md: '40px'}} >)</Typography>
+        <Typography color='black' variant="calc" fontSize={{xs: '30px', sm: '35px', md: '40px'}} >)</Typography>
         </Box>
         
     );

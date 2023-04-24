@@ -3,6 +3,7 @@ import { Typography } from "@mui/material";
 export default function CalcExponent({val, neg}) {
     return (
         <Typography
+            color='black' 
             variant="calc"
             fontSize={{xs: '30px', sm: '35px', md: '40px'}}
             sx={{

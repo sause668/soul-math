@@ -10,7 +10,7 @@ export default function CalcFraction({val, neg}) {
             justifyContent: 'center',
             alignItems: 'center',
         }}>
-        <Typography variant="calc" fontSize={{xs: '30px', sm: '35px', md: '40px'}}>{(neg) ? '-' : ''}</Typography>
+        <Typography variant="calc" color='black' fontSize={{xs: '30px', sm: '35px', md: '40px'}}>{(neg) ? '-' : ''}</Typography>
         <Box sx={{
             display: 'flex',
             flexDirection: 'column',
@@ -23,7 +23,7 @@ export default function CalcFraction({val, neg}) {
                 alignItems: 'center',
             }}>
                 {(val[0].val < 1) ? (
-                    <Typography variant="calc" fontSize={{xs: '30px', sm: '35px', md: '40px'}} >□</Typography>
+                    <Typography variant="calc" color='black' fontSize={{xs: '30px', sm: '35px', md: '40px'}} >□</Typography>
                 ):(
                     <React.Fragment>
                         {val[0].val.map((val,index)=>(
@@ -44,11 +44,11 @@ export default function CalcFraction({val, neg}) {
                 alignItems: 'center',
             }}>
                 {(val.length < 3) ? (
-                    <Typography variant="calc" sx={{opacity: 0}} fontSize={{xs: '30px', sm: '35px', md: '40px'}}>□</Typography>
+                    <Typography variant="calc" color='black' sx={{opacity: 0}} fontSize={{xs: '30px', sm: '35px', md: '40px'}}>□</Typography>
                 ):(
                     <React.Fragment>
                         {(val[2].val.length < 1) ? (
-                            <Typography variant="calc" >□</Typography>
+                            <Typography variant="calc" color='black'  >□</Typography>
                         ):(
                             <React.Fragment>
                                 {val[2].val.map((val,index)=>(

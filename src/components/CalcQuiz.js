@@ -527,7 +527,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         }
         
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
         setKeyN(keyN+1);
     }
     
@@ -544,7 +544,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         });
 
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
     //Sub Handler
     function handleSub(){
@@ -559,7 +559,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         });
 
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
     //Mult Handler
     function handleMult(){
@@ -574,7 +574,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         });
 
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
     //Div Handler
     function handleDiv(){
@@ -589,7 +589,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         });
 
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
     //Exp Handler
     function handleExp() {
@@ -605,7 +605,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         });
 
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
     //Neg Handler
     function handleNeg() {
@@ -634,7 +634,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         }
 
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus();
+        //document.getElementById(`textInput${questIndex}`).focus();
     }
     // Par Handlers
     function handleParOpen() {
@@ -661,7 +661,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
 
         setNumExt(false);
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
     function handleParClose() {
 
@@ -690,7 +690,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         setNumExt(false);
         setKeyP(keyP-1);
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
 
     //Frac Hanlder
@@ -771,7 +771,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         }
 
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
     function fracColor(fracState) {
 
@@ -800,7 +800,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         });
 
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
 
     //Ratio Handler
@@ -816,7 +816,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         });
 
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
 
     //Comma Handler
@@ -832,7 +832,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         });
 
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
 
     function handleCompOp(val) {
@@ -847,7 +847,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         });
 
         values.current = getExpress(data);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
 
     //Equate Handler
@@ -908,7 +908,7 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
         setFracExit8(false);
         setFracExit9(false);
         setFracExit10(false);
-        document.getElementById(`textInput${questIndex}`).focus()
+        //document.getElementById(`textInput${questIndex}`).focus()
     }
 
     return (

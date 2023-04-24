@@ -123,7 +123,7 @@ export default function QuizEnd({quiz, pageState, setPageState, results}) {
                 mb: 4
             
             }}>
-            <Typography variant="h3" align="center" mr={1} >
+            <Typography color='black' variant="h3" align="center" mr={1} >
                 {(grade()) ? 'Human Calculator!' : 'Stop Playing!'} 
             </Typography>
             <Image 

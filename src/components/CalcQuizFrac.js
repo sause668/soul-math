@@ -10,7 +10,7 @@ export default function CalcQuizFrac({val, neg}) {
             justifyContent: 'center',
             alignItems: 'center',
         }}>
-        <Typography variant="calc" fontSize={{xs: '30px', sm: '35px', md: '40px'}}>{(neg) ? '-' : ''}</Typography>
+        <Typography color='black' variant="calc" fontSize={{xs: '30px', sm: '35px', md: '40px'}}>{(neg) ? '-' : ''}</Typography>
         <Box sx={{
             display: 'flex',
             flexDirection: 'column',

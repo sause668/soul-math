@@ -424,7 +424,7 @@ export default function Calc() {
         }
         
         values.current = getExpress(data);
-        document.getElementById('textInput').focus()
+        //document.getElementById('textInput').focus()
         setKeyN(keyN+1);
     }
     
@@ -441,7 +441,7 @@ export default function Calc() {
         });
 
         values.current = getExpress(data);
-        document.getElementById('textInput').focus()
+        //document.getElementById('textInput').focus()
     }
     //Sub Handler
     function handleSub(){
@@ -456,7 +456,7 @@ export default function Calc() {
         });
 
         values.current = getExpress(data);
-        document.getElementById('textInput').focus()
+        //document.getElementById('textInput').focus()
     }
     //Mult Handler
     function handleMult(){
@@ -471,7 +471,7 @@ export default function Calc() {
         });
 
         values.current = getExpress(data);
-        document.getElementById('textInput').focus()
+        //document.getElementById('textInput').focus()
     }
     //Div Handler
     function handleDiv(){
@@ -486,7 +486,7 @@ export default function Calc() {
         });
 
         values.current = getExpress(data);
-        document.getElementById('textInput').focus()
+        //document.getElementById('textInput').focus()
     }
     //Exp Handler
     function handleExp() {
@@ -501,7 +501,7 @@ export default function Calc() {
         });
 
         values.current = getExpress(data);
-        document.getElementById('textInput').focus()
+        //document.getElementById('textInput').focus()
     }
     //Neg Handler
     function handleNeg() {
@@ -530,7 +530,7 @@ export default function Calc() {
         }
 
         values.current = getExpress(data);
-        document.getElementById('textInput').focus();
+        //document.getElementById('textInput').focus();
     }
     // Par Handlers
     function handleParOpen() {
@@ -557,7 +557,7 @@ export default function Calc() {
 
         setNumExt(false);
         values.current = getExpress(data);
-        document.getElementById('textInput').focus()
+        //document.getElementById('textInput').focus()
     }
     function handleParClose() {
 
@@ -586,7 +586,7 @@ export default function Calc() {
         setNumExt(false);
         setKeyP(keyP-1);
         values.current = getExpress(data);
-        document.getElementById('textInput').focus()
+        //document.getElementById('textInput').focus()
     }
 
     //Frac Hanlder
@@ -667,7 +667,7 @@ export default function Calc() {
         }
 
         values.current = getExpress(data);
-        document.getElementById('textInput').focus()
+        //document.getElementById('textInput').focus()
     }
     function fracColor(fracState) {
 
@@ -745,7 +745,7 @@ export default function Calc() {
         setFracExit8(false);
         setFracExit9(false);
         setFracExit10(false);
-        document.getElementById('textInput').focus()
+        //document.getElementById('textInput').focus()
     }
     function doOp(op, val1, val2) {
         switch (op) {
@@ -896,7 +896,7 @@ export default function Calc() {
         setFracExit8(false);
         setFracExit9(false);
         setFracExit10(false);
-        document.getElementById('textInput').focus()
+        //document.getElementById('textInput').focus()
     }
 
 
@@ -925,7 +925,7 @@ export default function Calc() {
             <ButtonBase
                 disableRipple
                 onClick={()=>document.getElementById('textInput').focus()}
-            >rty1234567890wert67uio
+            >
                 <Box 
                     //contentEditable 
                     id='calcDis'
@@ -947,8 +947,6 @@ export default function Calc() {
                             outline: '0px solid transparent'
                         },
                 }}>
-                    <Typography >68796</Typography>
-                    
                     {(values.current.length == 0) ? (
                         <Typography variant="calc" color='black' fontSize={{xs: '30px', sm: '35px', md: '40px'}}>{answer}</Typography>
                     ):(<></>)}

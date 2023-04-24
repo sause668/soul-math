@@ -149,7 +149,7 @@ export default function Quiz({quest, pageState, questIndex, nextQuest, results, 
             ):<></>}
             {/* Question Text */}
             {('questText' in quest) ? 
-                <Typography variant='calc' sx={{mt: 1}} align='center' fontSize={{xs: '30px', sm: '35px', md: '40px'}} >{quest.questText}</Typography>
+                <Typography color='black' variant='calc' sx={{mt: 1}} align='center' fontSize={{xs: '30px', sm: '35px', md: '40px'}} >{quest.questText}</Typography>
             :<></>}
             <Box sx={{m:2}} ></Box>
             {/* Answer */}
@@ -170,7 +170,7 @@ export default function Quiz({quest, pageState, questIndex, nextQuest, results, 
                                 value={option.id} 
                                 control={<Radio />} 
                                 checked={radio ==  option.id}
-                                label={<Typography variant="h5" >{option.val}</Typography>} 
+                                label={<Typography color='black' variant="h5" >{option.val}</Typography>} 
                                 onChange={(e)=>setRadio(e.target.value)}
                                 sx={{m: .5}}
                             />
