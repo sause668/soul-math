@@ -925,7 +925,7 @@ export default function Calc() {
             <ButtonBase
                 disableRipple
                 onClick={()=>document.getElementById('textInput').focus()}
-            >rty
+            >rty1234567890wert67uio
                 <Box 
                     //contentEditable 
                     id='calcDis'
@@ -950,7 +950,7 @@ export default function Calc() {
                     <Typography >68796</Typography>
                     
                     {(values.current.length == 0) ? (
-                        <Typography variant="calc" fontSize={{xs: '30px', sm: '35px', md: '40px'}}>{answer}</Typography>
+                        <Typography variant="calc" color='black' fontSize={{xs: '30px', sm: '35px', md: '40px'}}>{answer}</Typography>
                     ):(<></>)}
                     {values.current.map((val,index)=>(
                         <CalcExpression key={`calcExpress${index}`} val={val} index={index}/>
