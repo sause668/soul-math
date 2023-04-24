@@ -105,3 +105,73 @@ a {
     color-scheme: dark;
   }
 }
+
+/* love-ya-like-a-sister-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Love Ya Like A Sister';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/love-ya-like-a-sister-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/love-ya-like-a-sister-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/love-ya-like-a-sister-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/love-ya-like-a-sister-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/love-ya-like-a-sister-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/love-ya-like-a-sister-v16-latin-regular.svg#LoveYaLikeASister') format('svg'); /* Legacy iOS */
+}
+
+/* carter-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Carter One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/carter-one-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/carter-one-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/carter-one-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/carter-one-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/carter-one-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/carter-one-v17-latin-regular.svg#CarterOne') format('svg'); /* Legacy iOS */
+}
+
+/* autour-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Autour One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/autour-one-v24-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/autour-one-v24-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/autour-one-v24-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/autour-one-v24-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/autour-one-v24-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/autour-one-v24-latin-regular.svg#AutourOne') format('svg'); /* Legacy iOS */
+}
+
+/* asap-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/asap-v26-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/asap-v26-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/asap-v26-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/asap-v26-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/asap-v26-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/asap-v26-latin-regular.svg#Asap') format('svg'); /* Legacy iOS */
+}
+
+/* potta-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Potta One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/potta-one-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/potta-one-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/potta-one-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/potta-one-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/potta-one-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/potta-one-v16-latin-regular.svg#PottaOne') format('svg'); /* Legacy iOS */
+}
