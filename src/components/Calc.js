@@ -925,7 +925,7 @@ export default function Calc() {
             <ButtonBase
                 disableRipple
                 onClick={()=>document.getElementById('textInput').focus()}
-            >
+            >rty
                 <Box 
                     //contentEditable 
                     id='calcDis'
