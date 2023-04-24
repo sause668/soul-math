@@ -947,7 +947,8 @@ export default function Calc() {
                             outline: '0px solid transparent'
                         },
                 }}>
-                    uuu
+                    <Typography >68796</Typography>
+                    
                     {(values.current.length == 0) ? (
                         <Typography variant="calc" fontSize={{xs: '30px', sm: '35px', md: '40px'}}>{answer}</Typography>
                     ):(<></>)}
