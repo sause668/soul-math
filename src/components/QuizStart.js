@@ -16,12 +16,18 @@ export default function QuizStart({quiz, pageState, setPageState, unitTitle}) {
                 alignItems: 'center',
                 width: '100%',
         }}>
+            <Container sx={{
+            display: "flex",
+            flexDirection: 'column',
+            justifyContent: "center",
+            alignItems: 'center',
+        }} >
             <Typography align='center' variant='h1' m={0} >{unitTitle}</Typography>
             <Typography align='center' variant='h2' m={4} >{quiz.title}</Typography>
             
-            <Box>
-                <Typography align='center' variant='h3' m={2} px={0} ><b>Instructions: </b>{quiz.dis}</Typography>
-            </Box>
+            
+            <Typography align='center' variant='h3' m={2} px={0} ><b>Instructions: </b>{quiz.dis}</Typography>
+            
             <Button 
                 variant='contained'
                 onClick={()=>setPageState(0)}
@@ -29,6 +35,7 @@ export default function QuizStart({quiz, pageState, setPageState, unitTitle}) {
             >
                 <Typography color='myWhite.main' variant='h4' sx={{borderRadius: '30px'}} >Start Quiz</Typography>
             </Button>
+            </Container>
         </Box>
     );
 }
