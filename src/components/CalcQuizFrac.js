@@ -32,9 +32,12 @@ export default function CalcQuizFrac({val, neg}) {
                 maxHeight: '1px',
                 width: '100%',
             }} />
-            <Box sx={{
-                display: 'flex',
-                alignItems: 'center',
+            <Box 
+                sx={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    mt: 1
             }}>
                 {val[2].val.map((val,index)=>(
                     <CalcQuizExpress key={`calcFracB${index}`} val={val} index={index}/>

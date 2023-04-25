@@ -1051,7 +1051,10 @@ export default function Calc() {
                                 width: {xs: '45px', sm: '55px', md: '70px'},
                             }}
                         >
-                            <Typography variant='h4' align='center' color='white' >□</Typography>
+                            <Typography variant='h4' align='center' color='white' sx={{
+                                position: 'relative',
+                                top: 3
+                            }}>□</Typography>
                             <Box sx={{
                                 border: '1px solid white',
                                 borderRadius: '5px',
@@ -1060,7 +1063,7 @@ export default function Calc() {
                             }} />
                             <Typography variant='h4' align='center' color='white' sx={{
                                 position: 'relative',
-                                top: -7
+                                top: -3
                             }} >□</Typography>
                         </Button>
                         

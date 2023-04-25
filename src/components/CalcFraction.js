@@ -46,7 +46,13 @@ export default function CalcFraction({val, neg}) {
                 {(val.length < 3) ? (
                     <Typography variant="calc" color='black' sx={{opacity: 0}} fontSize={{xs: '30px', sm: '35px', md: '40px'}}>□</Typography>
                 ):(
-                    <React.Fragment>
+                    <Box 
+                        sx={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            mt: 1
+                    }}>
                         {(val[2].val.length < 1) ? (
                             <Typography variant="calc" color='black'  >□</Typography>
                         ):(
@@ -56,7 +62,7 @@ export default function CalcFraction({val, neg}) {
                                 ))}
                             </React.Fragment>
                         )}
-                    </React.Fragment>
+                    </Box>
                 )}
             </Box>
         </Box>
