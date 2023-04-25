@@ -1059,7 +1059,6 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
                             }}
                         >
                             <Typography 
-                                variant='h4' 
                                 align='center' 
                                 color='white' 
                                 variant="calc2" fontSize={{xs: '15px', sm: '17px', md: '20px'}}
@@ -1074,7 +1073,6 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
                                 width: '100%',
                             }} />
                             <Typography 
-                                variant='h4' 
                                 align='center' 
                                 color='white' 
                                 variant="calc2" fontSize={{xs: '15px', sm: '17px', md: '20px'}}

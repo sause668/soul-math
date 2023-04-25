@@ -1052,7 +1052,6 @@ export default function Calc() {
                             }}
                         >
                             <Typography 
-                                variant='h4' 
                                 align='center' 
                                 color='white' 
                                 variant="calc2" fontSize={{xs: '15px', sm: '17px', md: '20px'}}
@@ -1067,7 +1066,6 @@ export default function Calc() {
                                 width: '100%',
                             }} />
                             <Typography 
-                                variant='h4' 
                                 align='center' 
                                 color='white' 
                                 variant="calc2" fontSize={{xs: '15px', sm: '17px', md: '20px'}}
