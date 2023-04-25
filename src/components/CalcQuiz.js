@@ -1058,20 +1058,30 @@ export default function CalcQuiz({submitAnswer, questIndex}) {
                                 width: {xs: '45px', sm: '55px', md: '70px'},
                             }}
                         >
-                            <Typography variant='h4' align='center' color='white' sx={{
-                                position: 'relative',
-                                top: 3
-                            }}>□</Typography>
+                            <Typography 
+                                variant='h4' 
+                                align='center' 
+                                color='white' 
+                                variant="calc2" fontSize={{xs: '15px', sm: '17px', md: '20px'}}
+                                sx={{
+                                    position: 'relative',
+                                    top: 3
+                            }}>x</Typography>
                             <Box sx={{
                                 border: '1px solid white',
                                 borderRadius: '5px',
                                 maxHeight: '1px',
                                 width: '100%',
                             }} />
-                            <Typography variant='h4' align='center' color='white' sx={{
-                                position: 'relative',
-                                top: -3
-                            }} >□</Typography>
+                            <Typography 
+                                variant='h4' 
+                                align='center' 
+                                color='white' 
+                                variant="calc2" fontSize={{xs: '15px', sm: '17px', md: '20px'}}
+                                sx={{
+                                    position: 'relative',
+                                    top: -3
+                            }} >y</Typography>
                         </Button>
                         
                     </Grid>

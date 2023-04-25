@@ -904,9 +904,9 @@ export default function Calc() {
         <Box 
             sx={{
                 position: 'absolute',
-                top: '50%',
+                top: '150px',
                 left: '50%',
-                transform: 'translate(-50%, -50%)',
+                transform: 'translate(-50%, 0%)',
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
@@ -1051,20 +1051,30 @@ export default function Calc() {
                                 width: {xs: '45px', sm: '55px', md: '70px'},
                             }}
                         >
-                            <Typography variant='h4' align='center' color='white' sx={{
-                                position: 'relative',
-                                top: 3
-                            }}>□</Typography>
+                            <Typography 
+                                variant='h4' 
+                                align='center' 
+                                color='white' 
+                                variant="calc2" fontSize={{xs: '15px', sm: '17px', md: '20px'}}
+                                sx={{
+                                    position: 'relative',
+                                    top: 3
+                            }}>x</Typography>
                             <Box sx={{
                                 border: '1px solid white',
                                 borderRadius: '5px',
                                 maxHeight: '1px',
                                 width: '100%',
                             }} />
-                            <Typography variant='h4' align='center' color='white' sx={{
-                                position: 'relative',
-                                top: -3
-                            }} >□</Typography>
+                            <Typography 
+                                variant='h4' 
+                                align='center' 
+                                color='white' 
+                                variant="calc2" fontSize={{xs: '15px', sm: '17px', md: '20px'}}
+                                sx={{
+                                    position: 'relative',
+                                    top: -3
+                            }} >y</Typography>
                         </Button>
                         
                     </Grid>
